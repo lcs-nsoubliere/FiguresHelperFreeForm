@@ -41,7 +41,7 @@ struct CircleView: View {
    
     // attempts to calculate the area
     //and if cant... returns nil
-    var area: Double {
+    var area: Double? {
         //is the input actually a double, or is it Double?(might be nil)
         
         guard let radius = radius
@@ -68,10 +68,11 @@ struct CircleView: View {
                 
                 //Input: Radius
                 TextField("Radius", text: $providedRadius, prompt: Text("Please enter a value greater than 0"))
-                
-                
-                
+                  //Condition       True       False
+.foregroundColor(radius == nil ? Color.red : Color.primary)
+      
                 SectionLabelView(text: "Area", variable: "")
+        
                 
                 // Output: Area
                 OutputValueView(value: area, suffix: "square units")
