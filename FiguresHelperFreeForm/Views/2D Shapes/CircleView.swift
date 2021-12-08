@@ -69,8 +69,7 @@ struct CircleView: View {
                 //Input: Radius
                 TextField("Radius", text: $providedRadius, prompt: Text("Please enter a value greater than 0"))
                 
-                // Output: Radius
-                SliderValueView(value: radius)
+                
                 
                 SectionLabelView(text: "Area", variable: "")
                 
