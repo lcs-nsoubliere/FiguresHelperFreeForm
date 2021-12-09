@@ -98,8 +98,8 @@
 		0EA4FEFA275B8EF000D00C6F /* 2D Shapes */ = {
 			isa = PBXGroup;
 			children = (
-				0EA4FEF4275B894D00D00C6F /* CircleView.swift */,
 				0EA4FF07275BA39F00D00C6F /* ParallelogramView.swift */,
+				0EA4FEF4275B894D00D00C6F /* CircleView.swift */,
 			);
 			path = "2D Shapes";
 			sourceTree = "<group>";
